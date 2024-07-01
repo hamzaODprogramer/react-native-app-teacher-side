@@ -7,7 +7,7 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,16 +15,44 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hamzaod.secondetest"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hamzaod.secondetest"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow  to access your camera",
+          "microphonePermission": "Allow  to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ],
+      [
+      "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "312e1c93-902c-4e84-8a3c-3fbf3756bfac"
+      },
+      "EXPO_PUBLIC_API_KEY": "123e4567-e89b-12d3-a456-4266554dsdsd",
+      "EXPO_PUBLIC_API_URL": "https://hamzaod-ests.onrender.com",
+      "EXPO_PUBLIC_HANDLE_IMAGE_SERVER_URL":"http://192.168.1.8:5000",
+      "EXPO_PUBLIC_UPLOAD_PERSET" : "px8n79ig",
+      "EXPO_PUBLIC_CLOUD_NAME" : "dpbgiutrg"
     }
   }
 }
