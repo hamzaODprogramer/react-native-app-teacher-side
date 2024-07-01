@@ -48,11 +48,11 @@
       "eas": {
         "projectId": "312e1c93-902c-4e84-8a3c-3fbf3756bfac"
       },
-      "EXPO_PUBLIC_API_KEY": "123e4567-e89b-12d3-a456-4266554dsdsd",
+      "EXPO_PUBLIC_API_KEY": "123e4567-e89b-12d3-private-private",
       "EXPO_PUBLIC_API_URL": "https://hamzaod-ests.onrender.com",
       "EXPO_PUBLIC_HANDLE_IMAGE_SERVER_URL":"http://192.168.1.8:5000",
-      "EXPO_PUBLIC_UPLOAD_PERSET" : "px8n79ig",
-      "EXPO_PUBLIC_CLOUD_NAME" : "dpbgiutrg"
+      "EXPO_PUBLIC_UPLOAD_PERSET" : "private",
+      "EXPO_PUBLIC_CLOUD_NAME" : "private"
     }
   }
 }
